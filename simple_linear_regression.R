@@ -26,6 +26,8 @@ regressor = lm(formula = Salary ~ YearsExperience,
 # Predicting the Test set results
 y_pred = predict(regressor, newdata = test_set)
 
+print("chil")
+
 # Visualising the Training set results
 library(ggplot2)
 ggplot() +
