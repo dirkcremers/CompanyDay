@@ -36,7 +36,7 @@ ggplot() +
   ggtitle('Salary vs Experience (Training set)') +
   xlab('Years of experience') +
   ylab('Salary')
-
+print(joejoe)
 # Visualising the Test set results
 library(ggplot)
 ggplot() +
